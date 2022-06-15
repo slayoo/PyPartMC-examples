@@ -23,6 +23,5 @@ jobs:
         pip install pylint nbqa
         pip install -r requirements.txt
         pip install -r test-time-requirements.txt
-        pip install -e .
     - run: pylint --unsafe-load-any-extension=y --disable=fixme,no-member,trailing-newlines,missing-module-docstring,missing-class-docstring,missing-function-docstring,unnecessary-pass $(git ls-files '*.py')
     - run: nbqa pylint --unsafe-load-any-extension=y --disable=fixme,no-member,wrong-import-position,trailing-whitespace,missing-function-docstring,missing-module-docstring $(git ls-files '*.ipynb')
