@@ -1,0 +1,4 @@
+pytest
+nbconvert
+ipython
+ipykernel

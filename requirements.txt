@@ -1,0 +1,4 @@
+PyPartMC
+matplotlib
+ipywidgets
+voila
