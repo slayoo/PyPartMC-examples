@@ -2,4 +2,4 @@ PyPartMC
 matplotlib
 ipywidgets
 voila
-atmos-cloud-sim-uj
+atmos-cloud-sim-uj-utils
