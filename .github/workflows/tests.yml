@@ -16,7 +16,7 @@ jobs:
   build:
     strategy:
       matrix:
-        platform: [ubuntu-latest, windows-latest]  # TODO: macos-latest
+        platform: [ubuntu-latest, windows-latest, macos-12]
         python-version: ["3.7", "3.8", "3.9", "3.10"]
         exclude:
           - platform: windows-latest
@@ -33,9 +33,9 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - run: pip install -r requirements.txt
+      - run: SYSTEM_VERSION_COMPAT=0 pip install -r requirements.txt
 
-      - run: pip install -r test-time-requirements.txt
+      - run: SYSTEM_VERSION_COMPAT=0 pip install -r test-time-requirements.txt
 
       - run: pytest -v -s -We -p no:unraisableexception tests
 
