@@ -1,4 +1,4 @@
-PyPartMC>=0.0.4
+PyPartMC>=0.0.16
 matplotlib
 ipywidgets
 voila
