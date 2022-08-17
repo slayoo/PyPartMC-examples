@@ -2,26 +2,12 @@
 Jupyter notebooks exemplifying usage of PyPartMC from Python
 
 #### Jupyter notebooks with examples 
-Note: only visual examples have corresponding Voila notebooks!
 
-- `hello_world` notebook:    
-[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/open-atmos/PyPartMC-examples/blob/main/notebooks/hello_world.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/open-atmos/PyPartMC-examples/blob/main/notebooks/hello_world.ipynb)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/open-atmos/PyPartMC-examples.git/main?urlpath=lab/tree/notebooks/hello_world.ipynb)
-- `condense` notebook:   
-[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/open-atmos/PyPartMC-examples/blob/main/notebooks/condense.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/open-atmos/PyPartMC-examples/blob/main/notebooks/condense.ipynb)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/open-atmos/PyPartMC-examples.git/main?urlpath=lab/tree/notebooks/condense.ipynb)
-- `widgets_playground` notebook:   
-[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/open-atmos/PyPartMC-examples/blob/main/notebooks/widgets_playground.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/open-atmos/PyPartMC-examples/blob/main/notebooks/widgets_playground.ipynb)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/open-atmos/PyPartMC-examples.git/main?urlpath=lab/tree/notebooks/widgets_playground.ipynb)
-[![Voila](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/open-atmos/PyPartMC-examples/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Fwidgets_playground.ipynb)
-- `lognorm_ex` notebook:   
+- Dry-Wet Particle Size Equilibration with PartMC and PySDM:   
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/open-atmos/PyPartMC-examples/blob/main/notebooks/lognorm_ex.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/open-atmos/PyPartMC-examples/blob/main/notebooks/lognorm_ex.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/open-atmos/PyPartMC-examples.git/main?urlpath=lab/tree/notebooks/lognorm_ex.ipynb)
-[![Voila](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/open-atmos/PyPartMC-examples/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Flognorm_ex.ipynb)
+[![Voila](https://img.shields.io/static/v1?label=Voil%C3%A0&logo=jupyter&color=teal&message=web+app)](https://mybinder.org/v2/gh/open-atmos/PyPartMC-examples/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Flognorm_ex.ipynb)
 
 #### Reporting issues
 
