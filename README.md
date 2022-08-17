@@ -1,5 +1,4 @@
 # PyPartMC-examples
-Jupyter notebooks exemplifying usage of PyPartMC from Python
 
 #### Jupyter notebooks with examples 
 
