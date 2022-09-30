@@ -2,4 +2,4 @@ pytest
 nbconvert
 ipython
 ipykernel
-PyPartMC @ git+https://github.com/open-atmos/PyPartMC@6b027c5#egg=PyPartMC
+PyPartMC==0.0.19
