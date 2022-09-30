@@ -2,4 +2,4 @@ pytest
 nbconvert
 ipython
 ipykernel
-PyPartMC==0.0.15
+PyPartMC==0.0.19
