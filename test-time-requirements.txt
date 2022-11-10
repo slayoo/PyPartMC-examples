@@ -1,5 +1,6 @@
 pytest
 nbconvert
+jupyter-core<5.0.0
 ipython
 ipykernel
 PyPartMC==0.0.19
