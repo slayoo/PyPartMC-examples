@@ -17,7 +17,7 @@ jobs:
     strategy:
       matrix:
         platform: [ubuntu-latest, windows-latest, macos-12]
-        python-version: ["3.7", "3.8", "3.9", "3.10"]
+        python-version: ["3.8", "3.9", "3.10"]
         exclude:
           - platform: windows-latest
             python-version: "3.8"
@@ -37,5 +37,5 @@ jobs:
 
       - run: SYSTEM_VERSION_COMPAT=0 pip install -r test-time-requirements.txt
 
-      - run: pytest -v -s -We -p no:unraisableexception tests
+      - run: JUPYTER_PLATFORM_DIRS=1 pytest -v -s -We -p no:unraisableexception tests
 

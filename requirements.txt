@@ -2,5 +2,5 @@ PyPartMC>=0.0.19
 matplotlib
 ipywidgets
 voila
-atmos-cloud-sim-uj-utils
+open-atmos-jupyter-utils
 PySDM
