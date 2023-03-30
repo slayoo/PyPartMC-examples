@@ -37,5 +37,4 @@ jobs:
 
       - run: SYSTEM_VERSION_COMPAT=0 pip install -r test-time-requirements.txt
 
-      - run: JUPYTER_PLATFORM_DIRS=1 pytest -v -s -We -p no:unraisableexception tests
-
+      - run: JUPYTER_PLATFORM_DIRS=1 pytest --durations=10 -v -s -We -p no:unraisableexception tests
