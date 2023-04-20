@@ -3,4 +3,4 @@ nbconvert
 jupyter-client>=8.0.2
 ipython
 ipykernel
-PyPartMC==0.0.29
+PyPartMC==0.0.32
