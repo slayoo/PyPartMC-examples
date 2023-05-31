@@ -1,16 +1,6 @@
 # PyPartMC-examples
 
-#### Jupyter notebooks with examples 
-
-- Dry-Wet Particle Size Equilibration with PartMC and PySDM:   
-[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/open-atmos/PyPartMC-examples/blob/main/notebooks/lognorm_ex.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/open-atmos/PyPartMC-examples/blob/main/notebooks/lognorm_ex.ipynb)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/open-atmos/PyPartMC-examples.git/main?urlpath=lab/tree/notebooks/lognorm_ex.ipynb)
-[![Voila](https://img.shields.io/static/v1?label=Voil%C3%A0&logo=jupyter&color=teal&message=web+app)](https://mybinder.org/v2/gh/open-atmos/PyPartMC-examples/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Flognorm_ex.ipynb)
-
-#### Reporting issues
-
-Please use [PyPartMC issue tracker](https://github.com/open-atmos/PyPartMC/issues/) for PyPartMC-examples issues as well.
+# This repository is phased out, the example notebooks are now part of the main `PyPartMC` repo at https://github.com/open-atmos/PyPartMC/
 
 #### Credits
 
